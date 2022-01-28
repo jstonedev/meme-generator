@@ -1,0 +1,34 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 65px;
+	background: linear-gradient(to right, #672280, #a626d3);
+	color: #fff;
+}
+
+.nav--logo_container {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.nav--logo_img {
+	max-width: 100%;
+	height: 30px;
+	margin-right: 6.5px;
+}
+
+.nav--logo_title {
+	font-size: 20.75px;
+	font-family: "Karla", sans-serif;
+	font-weight: 700;
+	line-height: 24.25px;
+	letter-spacing: -2px;
+}
+
+.nav--title {
+	font-size: 12px;
+	font-weight: 500;
+	padding: 25px 37px;
+}
