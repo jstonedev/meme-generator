@@ -5,11 +5,9 @@ import "./header.css";
 const Header = () => {
 	return (
 		<header className="header">
-			<div className="header--logo_container">
-				<img className="header--logo_img" src={TrollFace} alt="troll face" />
-				<span className="header--logo_title">Meme Generator</span>
-			</div>
-			<h2 className="header--title">React Course - Project 3</h2>
+			<img className="header--img" src={TrollFace} alt="troll face" />
+			<h2 className="header--title">Meme Generator</h2>
+			<h4 className="header--project">React Course - Project 3</h4>
 		</header>
 	);
 };
